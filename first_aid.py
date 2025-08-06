@@ -1,34 +1,34 @@
-import streamlit as st
-import json
+# import streamlit as st
+# import json
 
-# Load the first aid data
-with open("first_aid_data.json", "r") as f:
-    data = json.load(f)
+# # Load the first aid data
+# with open("first_aid_data.json", "r") as f:
+#     data = json.load(f)
 
-st.set_page_config(page_title="First Aid Instruction App", layout="centered")
+# st.set_page_config(page_title="First Aid Instruction App", layout="centered")
 
-st.title("🩹 First Aid Instruction App")
-st.markdown("Quickly find first aid instructions for common emergencies.")
+# st.title("🩹 First Aid Instruction App")
+# st.markdown("Quickly find first aid instructions for common emergencies.")
 
-# Get all topics organized by category
-all_topics = {
-    category: list(topics.keys())
-    for category, topics in data.items()
-}
+# # Get all topics organized by category
+# all_topics = {
+#     category: list(topics.keys())
+#     for category, topics in data.items()
+# }
 
-# Sidebar: Choose a category
-selected_category = st.sidebar.selectbox("📂 Select a category", list(all_topics.keys()))
+# # Sidebar: Choose a category
+# selected_category = st.sidebar.selectbox("📂 Select a category", list(all_topics.keys()))
 
-# Show dropdown of topics in the selected category
-selected_topic = st.selectbox(
-    f"🔍 Topics in {selected_category}",
-    all_topics[selected_category]
-)
+# # Show dropdown of topics in the selected category
+# selected_topic = st.selectbox(
+#     f"🔍 Topics in {selected_category}",
+#     all_topics[selected_category]
+# )
 
-# Display the instructions
-if selected_topic:
-    st.subheader(f"🩺 {selected_topic}")
-    st.write(data[selected_category][selected_topic])
+# # Display the instructions
+# if selected_topic:
+#     st.subheader(f"🩺 {selected_topic}")
+#     st.write(data[selected_category][selected_topic])
 
 import streamlit as st
 import json
@@ -71,3 +71,4 @@ else:
     if selected_topic:
         st.subheader(f"🩺 {selected_topic}")
         st.write(data[selected_category][selected_topic])
+
