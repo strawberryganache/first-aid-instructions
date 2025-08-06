@@ -1,16 +1,16 @@
 {
   "Breathing & Circulation": {
-    "CPR": "🫀 Give 30 chest compressions, followed by 2 rescue breaths.",
+    "CPR": "Give 30 chest compressions, followed by 2 rescue breaths.",
     "Choking": "😮‍💨 \n- Partial: Sit upright and encourage coughing.\n- Complete: Perform back blows, chest thrusts, or abdominal thrusts.\n- Infants: Use back blows and chest compressions only.\n⚠️ Avoid objects smaller than 4 cm around infants.",
     "Heart Attack / Angina": "❤️ Rest quietly. Have the person chew ASA (Aspirin) and use nitroglycerin spray if prescribed.",
     "Stroke / TIA": "🧠 Place in a comfortable position. Note the time they were last seen normal.\nRemember: FAST (Face, Arms, Speech, Time)."
   },
   "Bleeding & Wounds": {
-    "Bleeding": "🩸 Apply direct pressure with dressings and bandages.\n🦿 If on a limb and EMS is far, use a tourniquet.",
-    "Wounds": "🧼 Rinse with water. Apply pressure, ointment, and bandages.",
+    "Bleeding": "🩸 Apply direct pressure with dressings and bandages. If on a limb and EMS is far, use a tourniquet.",
+    "Wounds": "💦 Rinse with water. Apply pressure, ointment, and bandages.",
     "Bruises": "🧊 Apply a cold pack.",
-    "Impalement": "📦 Apply bulky dressings. Do not remove the object.",
-    "Amputations": "🦾 Apply pressure and gauze. Place the amputated part in a bag, label it (name, date, time), and cool it."
+    "Impalement": "Apply bulky dressings. Do not remove the object.",
+    "Amputations": "Apply pressure and gauze. Place the amputated part in a bag, label it (name, date, time), and cool it."
   },
   "Burns & Environmental": {
     "Burns": "🔥 Apply cool water or compress. Cover with dry, loose, sterile dressings.",
@@ -18,19 +18,19 @@
     "Electrical Burns": "⚡ Locate the entry and exit burns.",
     "Heat Emergencies": "🌡️ Recognize cramps, exhaustion, and heat stroke. Cool the body and hydrate.",
     "Frostbite": "❄️ Use warm (not hot) water. Apply dressings, elevate, and rehydrate.",
-    "Hypothermia": "🧥 Use warm water bottles, heating pads, or blankets. Do not use hot baths.",
+    "Hypothermia": "Use warm water bottles, heating pads, or blankets. Do not use hot baths.",
     "Metal Frozen to Skin": "🧊 Pour warm water to release it safely."
   },
   "Allergic Reactions & Bites": {
     "Allergies": "🤧 Remove allergens and assist with medication.",
     "Anaphylaxis": "🆘 Use an epinephrine auto-injector. Repeat after 5 minutes if no effect.",
     "Insect Stings": "🐝 Scrape out the stinger. Apply a cold pack.",
-    "Ticks": "🪲 Use tweezers to remove. Wash with clean water.",
+    "Ticks": "🦟 Use tweezers to remove. Wash with clean water.",
     "Snake Bites": "🐍 Rinse, bandage, and keep the bite level with the heart.",
     "Spider Bites": "🕷️ \n- Venomous: Elevate and use a cold pack. \n  - Black widow: Raised, red mark\n  - Brown recluse: Bull’s eye pattern\n- Non-venomous: Clean, apply ointment and bandage.",
     "Animal Bites": "🐾 Treat puncture wounds. Seek medical attention.",
     "Poison Ivy / Sumac / Oak": "🌿 Apply ointment and take oral antihistamines.",
-    "Hogweed / Parsnip": "🌞 Avoid sunlight. Rinse eyes immediately."
+    "Hogweed / Parsnip": "Avoid sunlight. Rinse eyes immediately."
   },
   "Respiratory & Medication": {
     "Respiratory Distress": "😤 Place in a comfortable position. Reassure and assist with medication.",
@@ -40,9 +40,9 @@
   },
   "Muscle, Bone, and Joint Injuries": {
     "Bone / Muscle / Joint Injuries": "🦴 Use the RICE method:\nR - Rest\nI - Ice\nC - Compression\nE - Elevate\n\nTypes:\n- Strain: Muscle/tendon stretched or torn\n- Sprain: Ligament torn\n- Dislocation: Joint out of place\n- Fracture: Bone broken or chipped\n\n📞 Call 911 for thigh bone/pelvis injuries, bone protrusions, or signs of poor circulation.",
-    "Crush Injuries": "🪨 Remove object if affecting breathing, head/neck, chest, or abdomen.",
-    "Blunt Chest Injury": "📦 Hold bulky object against the chest.",
-    "Chest Penetration": "🫁 Sit comfortably. Apply pressure if bleeding profusely."
+    "Crush Injuries": "Remove object if affecting breathing, head/neck, chest, or abdomen.",
+    "Blunt Chest Injury": "Hold bulky object against the chest.",
+    "Chest Penetration": "Sit comfortably. Apply pressure if bleeding profusely."
   },
   "Head, Neck & Spine": {
     "Head/Neck/Spinal Injury": "🧍‍♂️ Keep the person still. Support the head. Move only if:\n- Airway is at risk\n- Scene is unsafe\n- EMS is far\n- Recovery position is needed\n- Patient is unresponsive",
@@ -68,6 +68,7 @@
   "Assessment & Principles": {
     "Primary Assessment": "🧑‍⚕️ Use ABC:\nA - Airway (head tilt/chin lift)\nB - Breathing (look for chest rise)\nC - Circulation (check bleeding)",
     "Emergency Action Steps": "🚨\n1. Check\n2. Call (usually before care unless life/death emergency)\n3. Care",
-    "SAMPLE History": "📝\nS - Symptoms\nA - Allergies\nM - Medications\nP - Past medical history\nL - Last oral intake\nE - Events leading up"
+    "SAMPLE Questions": "📝\nS - Symptoms\nA - Allergies\nM - Medications\nP - Past medical history\nL - Last oral intake\nE - Events leading up"
   }
 }
+
