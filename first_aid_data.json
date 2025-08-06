@@ -2,7 +2,7 @@ import json
 
 first_aid_data = {
     "Breathing & Circulation": {
-        "CPR": "🫀 Give 30 chest compressions, followed by 2 rescue breaths.",
+        "CPR": "Give 30 chest compressions, followed by 2 rescue breaths.",
         "Choking": "😮‍💨 \n- Partial: Sit upright and encourage coughing.\n- Complete: Perform back blows, chest thrusts, or abdominal thrusts.\n- Infants: Use back blows and chest compressions only.\n⚠️ Avoid objects smaller than 4 cm around infants.",
         "Heart Attack / Angina": "❤️ Rest quietly. Have the person chew ASA (Aspirin) and use nitroglycerin spray if prescribed.",
         "Stroke / TIA": "🧠 Place in a comfortable position. Note the time they were last seen normal.\nRemember: FAST (Face, Arms, Speech, Time)."
@@ -78,3 +78,4 @@ first_aid_data = {
 with open("first_aid_data.json", "w") as f:
 
     json.dump(first_aid_data, f, indent=2)
+
