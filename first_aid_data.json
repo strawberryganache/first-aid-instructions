@@ -27,7 +27,7 @@ first_aid_data = {
         "Allergies": "🤧 Remove allergens and assist with medication.",
         "Anaphylaxis": "🆘 Use an epinephrine auto-injector. Repeat after 5 minutes if no effect.",
         "Insect Stings": "🐝 Scrape out the stinger. Apply a cold pack.",
-        "Ticks": "🪲 Use tweezers to remove. Wash with clean water.",
+        "Ticks": "🦟 Use tweezers to remove. Wash with clean water.",
         "Snake Bites": "🐍 Rinse, bandage, and keep the bite level with the heart.",
         "Spider Bites": "🕷️ \n- Venomous: Elevate and use a cold pack. \n  - Black widow: Raised, red mark\n  - Brown recluse: Bull’s eye pattern\n- Non-venomous: Clean, apply ointment and bandage.",
         "Animal Bites": "🐾 Treat puncture wounds. Seek medical attention.",
@@ -42,9 +42,9 @@ first_aid_data = {
     },
     "Muscle, Bone, and Joint Injuries": {
         "Bone / Muscle / Joint Injuries": "🦴 Use the RICE method:\nR - Rest\nI - Ice\nC - Compression\nE - Elevate\n\nTypes:\n- Strain: Muscle/tendon stretched or torn\n- Sprain: Ligament torn\n- Dislocation: Joint out of place\n- Fracture: Bone broken or chipped\n\n📞 Call 911 for thigh bone/pelvis injuries, bone protrusions, or signs of poor circulation.",
-        "Crush Injuries": "🪨 Remove object if affecting breathing, head/neck, chest, or abdomen.",
-        "Blunt Chest Injury": "📦 Hold bulky object against the chest.",
-        "Chest Penetration": "🫁 Sit comfortably. Apply pressure if bleeding profusely."
+        "Crush Injuries": "Remove object if affecting breathing, head/neck, chest, or abdomen.",
+        "Blunt Chest Injury": "Hold bulky object against the chest.",
+        "Chest Penetration": "Sit comfortably. Apply pressure if bleeding profusely."
     },
     "Head, Neck & Spine": {
         "Head/Neck/Spinal Injury": "🧍‍♂️ Keep the person still. Support the head. Move only if:\n- Airway is at risk\n- Scene is unsafe\n- EMS is far\n- Recovery position is needed\n- Patient is unresponsive",
@@ -70,10 +70,11 @@ first_aid_data = {
     "Assessment & Principles": {
         "Primary Assessment": "🧑‍⚕️ Use ABC:\nA - Airway (head tilt/chin lift)\nB - Breathing (look for chest rise)\nC - Circulation (check bleeding)",
         "Emergency Action Steps": "🚨\n1. Check\n2. Call (usually before care unless life/death emergency)\n3. Care",
-        "SAMPLE History": "📝\nS - Symptoms\nA - Allergies\nM - Medications\nP - Past medical history\nL - Last oral intake\nE - Events leading up"
+        "SAMPLE Questions": "📝\nS - Symptoms\nA - Allergies\nM - Medications\nP - Past medical history\nL - Last oral intake\nE - Events leading up"
     }
 }
 
 # Save the JSON file
 with open("first_aid_data.json", "w") as f:
+
     json.dump(first_aid_data, f, indent=2)
