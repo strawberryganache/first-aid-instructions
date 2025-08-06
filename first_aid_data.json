@@ -66,9 +66,10 @@
     "Childbirth": "👶 Place towels under the mother. Support baby’s head. Wipe fluids, check ABCs, dry and place baby on mother’s chest. Record time of birth. Apply pressure to any bleeding."
   },
   "Assessment & Principles": {
-    "Primary Assessment": "🧑‍⚕️ Use ABC:\nA - Airway (head tilt/chin lift)\nB - Breathing (look for chest rise)\nC - Circulation (check bleeding)",
-    "Emergency Action Steps": "🚨\n1. Check\n2. Call (usually before care unless life/death emergency)\n3. Care",
-    "SAMPLE Questions": "📝\nS - Symptoms\nA - Allergies\nM - Medications\nP - Past medical history\nL - Last oral intake\nE - Events leading up"
+    "Primary Assessment": "Use ABC:\nA - Airway (head tilt/chin lift)\nB - Breathing (look for chest rise)\nC - Circulation (check bleeding)",
+    "Emergency Action Steps": "1. Check\n2. Call (usually before care unless life/death emergency)\n3. Care",
+    "SAMPLE Questions": "S - Symptoms\nA - Allergies\nM - Medications\nP - Past medical history\nL - Last oral intake\nE - Events leading up"
   }
 }
+
 
