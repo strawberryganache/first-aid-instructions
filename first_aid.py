@@ -5,7 +5,11 @@ import json
 with open("first_aid_data.json", "r") as f:
     data = json.load(f)
 
-st.set_page_config(page_title="First Aid Instruction App", layout="centered")
+st.set_page_config(
+    page_title="First Aid Instruction App",
+    page_icon="🩹",
+    layout="centered"
+)
 
 st.title("🩹 First Aid Instruction App")
 st.markdown("Quickly find first aid instructions for common emergencies.")
@@ -71,6 +75,7 @@ if selected_topic:
 #     if selected_topic:
 #         st.subheader(f"🩺 {selected_topic}")
 #         st.write(data[selected_category][selected_topic])
+
 
 
 
